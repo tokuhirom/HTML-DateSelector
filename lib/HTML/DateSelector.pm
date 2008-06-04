@@ -100,7 +100,8 @@ generate HTML for date selector.
 
 date selector.
 
-ymd => year, month, day.ym => year, month.
+ymd => year, month, day.
+ym => year, month.
 
 =head2 year
 
