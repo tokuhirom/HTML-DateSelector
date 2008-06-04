@@ -1,5 +1,6 @@
 use inc::Module::Install;
 name 'HTML-DateSelector';
+license 'perl';
 all_from 'lib/HTML/DateSelector.pm';
 
 tests 't/*.t t/*/*.t t/*/*/*.t';
