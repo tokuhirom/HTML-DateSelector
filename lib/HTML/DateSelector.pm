@@ -121,6 +121,22 @@ Year selector.You can set the span of year.
 
 primitive selector.month, day, hour, minute.
 
+=head1 OPTIONS
+
+=head2 include_blank
+
+you can select the blank.
+
+=head2 plugin
+
+  # todo:
+  my $html = HTML::DateSelector->ymd('start_on', {plugin => 'DoJo'}); # or
+  my $html = HTML::DateSelector->ymd('start_on', {plugin => [qw/DoJo/]});
+
+use the plugin feature.
+
+*** NOT IMPLEMENTED YET ***
+
 =head1 AUTHOR
 
 Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
