@@ -2,7 +2,7 @@ package HTML::DateSelector;
 use strict;
 use warnings;
 use Carp;
-our $VERSION = 0.01;
+our $VERSION = '0.01';
 
 sub _this_year {
     my ($class, ) = @_;
@@ -145,7 +145,7 @@ Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
 
 L<http://dev.rubyonrails.org/browser/trunk/actionpack/lib/action_view/helpers/date_helper.rb>
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 Copyright (c) 2006, Tokuhiro Matsuno C<< <tokuhiro __at__ mobilefactory.jp> >>. All rights reserved.
 
