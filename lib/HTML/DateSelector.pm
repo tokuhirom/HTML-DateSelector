@@ -92,8 +92,22 @@ generate HTML for date selector.
 
 =head1 CLASS METHODS
 
+=head2 ymd
+=head2 ym
+
+    my $html = HTML::DateSelector->ymd('start_on');
+    my $html = HTML::DateSelector->ym('start_on');
+
+date selector.
+
+ymd => year, month, day.ym => year, month.
+
 =head2 year
 
+    my $html = HTML::DateSelector->year('start_on');
+    my $html = HTML::DateSelector->year('start_on', {start_on => 2000, end_on => 2005});
+
+Year selector.You can set the span of year.
 
 =head2 month
 =head2 day
@@ -104,8 +118,7 @@ generate HTML for date selector.
   my $html = HTML::DateSelector->minute('start_on');
   # and...
 
-=head2 ymd
-=head2 ym
+primitive selector.month, day, hour, minute.
 
 =head1 AUTHOR
 
