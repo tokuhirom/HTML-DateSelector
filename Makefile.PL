@@ -1,15 +1,10 @@
-use strict;
-use warnings;
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
+name 'HTML-DateSelector';
+all_from 'lib/HTML/DateSelector.pm';
 
-WriteMakefile(
-    NAME                => 'HTML::DateSelector',
-    AUTHOR              => 'Tokuhiro Matsuno <tokuhiro __at__ mobilefactory.jp>',
-    VERSION_FROM        => 'lib/HTML/DateSelector.pm',
-    ABSTRACT_FROM       => 'lib/HTML/DateSelector.pm',
-    PL_FILES            => {},
-    PREREQ_PM => {
-    },
-    dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean               => { FILES => 'HTML-DateSelector-*' },
-);
+tests 't/*.t t/*/*.t t/*/*/*.t';
+build_requires 'Test::More';
+build_requires 'YAML';
+recursive_author_tests 'xt';
+auto_include;
+WriteAll;
