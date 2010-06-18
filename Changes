@@ -1,5 +1,9 @@
 Revision history for HTML-DateSelector
 
+0.04
+
+    - fixed packing issue
+
 0.03
 
     - fixed pod issue
