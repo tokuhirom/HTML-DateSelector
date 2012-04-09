@@ -134,7 +134,7 @@ you can select the blank.
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
+Tokuhiro Matsuno  C<< <tokuhirom @__at__ gmail.com> >>
 
 =head1 SEE ALSO
 
